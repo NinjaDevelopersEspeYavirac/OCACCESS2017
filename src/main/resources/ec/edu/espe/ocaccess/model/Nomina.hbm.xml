@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 10, 2017 11:27:37 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="ec.edu.espe.ocaccess.model.Nomina" table="NOMINA" schema="OCACCESS" optimistic-lock="version">
+        <id name="nominaId" type="string">
+            <column name="NOMINA_ID" length="6" />
+            <generator class="assigned" />
+        </id>
+        <property name="nominaApe" type="string">
+            <column name="NOMINA_APE" length="100" not-null="true" />
+        </property>
+        <property name="nominaNom" type="string">
+            <column name="NOMINA_NOM" length="50" not-null="true" />
+        </property>
+        <property name="nominaClave" type="string">
+            <column name="NOMINA_CLAVE" length="4" />
+        </property>
+        <property name="nominaCod" type="string">
+            <column name="NOMINA_COD" length="12" />
+        </property>
+        <property name="nominaTipo" type="string">
+            <column name="NOMINA_TIPO" length="30" not-null="true" />
+        </property>
+        <property name="nominaCal" type="long">
+            <column name="NOMINA_CAL" precision="10" scale="0" not-null="true" />
+        </property>
+        <property name="nominaArea" type="long">
+            <column name="NOMINA_AREA" precision="10" scale="0" not-null="true" />
+        </property>
+        <property name="nominaDep" type="long">
+            <column name="NOMINA_DEP" precision="10" scale="0" not-null="true" />
+        </property>
+        <property name="nominaCal1" type="string">
+            <column name="NOMINA_CAL1" length="100" />
+        </property>
+        <property name="nominaArea1" type="string">
+            <column name="NOMINA_AREA1" length="100" />
+        </property>
+        <property name="nominaDep1" type="string">
+            <column name="NOMINA_DEP1" length="100" />
+        </property>
+        <property name="nominaFing" type="string">
+            <column name="NOMINA_FING" length="20" />
+        </property>
+        <property name="nominaFsal" type="string">
+            <column name="NOMINA_FSAL" length="20" />
+        </property>
+        <property name="nominaSuel" type="java.lang.Long">
+            <column name="NOMINA_SUEL" precision="10" scale="0" />
+        </property>
+        <property name="nominaCom" type="java.lang.Long">
+            <column name="NOMINA_COM" precision="10" scale="0" />
+        </property>
+        <property name="nominaAuti" type="big_decimal">
+            <column name="NOMINA_AUTI" precision="22" scale="0" />
+        </property>
+        <property name="nominaEs" type="big_decimal">
+            <column name="NOMINA_ES" precision="22" scale="0" />
+        </property>
+        <property name="nominaObs" type="string">
+            <column name="NOMINA_OBS" length="50" />
+        </property>
+        <property name="nominaEmp" type="long">
+            <column name="NOMINA_EMP" precision="10" scale="0" not-null="true" />
+        </property>
+        <property name="nominaFinger" type="string">
+            <column name="NOMINA_FINGER" length="3" />
+        </property>
+        <property name="nominaF1" type="blob">
+            <column name="NOMINA_F1" />
+        </property>
+        <property name="nominaCed" type="blob">
+            <column name="NOMINA_CED" />
+        </property>
+        <property name="nominaFir" type="blob">
+            <column name="NOMINA_FIR" />
+        </property>
+        <property name="nominaHd1" type="string">
+            <column name="NOMINA_HD1" length="10" />
+        </property>
+        <property name="nominaHf1" type="blob">
+            <column name="NOMINA_HF1" />
+        </property>
+        <property name="nominaHi1" type="blob">
+            <column name="NOMINA_HI1" />
+        </property>
+        <property name="nominaHd2" type="string">
+            <column name="NOMINA_HD2" length="10" />
+        </property>
+        <property name="nominaHf2" type="blob">
+            <column name="NOMINA_HF2" />
+        </property>
+        <property name="nominaHi2" type="blob">
+            <column name="NOMINA_HI2" />
+        </property>
+        <property name="nominaSel" type="big_decimal">
+            <column name="NOMINA_SEL" precision="22" scale="0" />
+        </property>
+        <property name="nominaEmpc" type="string">
+            <column name="NOMINA_EMPC" length="10" />
+        </property>
+        <property name="nominaEmpe" type="string">
+            <column name="NOMINA_EMPE" length="10" />
+        </property>
+        <property name="nominaP1" type="java.lang.Boolean">
+            <column name="NOMINA_P1" precision="1" scale="0" />
+        </property>
+        <property name="nominaP2" type="java.lang.Boolean">
+            <column name="NOMINA_P2" precision="1" scale="0" />
+        </property>
+        <property name="nominaP3" type="java.lang.Boolean">
+            <column name="NOMINA_P3" precision="1" scale="0" />
+        </property>
+        <property name="nominaP4" type="java.lang.Boolean">
+            <column name="NOMINA_P4" precision="1" scale="0" />
+        </property>
+        <property name="nominaP5" type="java.lang.Boolean">
+            <column name="NOMINA_P5" precision="1" scale="0" />
+        </property>
+        <property name="nominaP6" type="java.lang.Boolean">
+            <column name="NOMINA_P6" precision="1" scale="0" />
+        </property>
+        <property name="nominaP7" type="java.lang.Boolean">
+            <column name="NOMINA_P7" precision="1" scale="0" />
+        </property>
+        <property name="nominaP8" type="java.lang.Boolean">
+            <column name="NOMINA_P8" precision="1" scale="0" />
+        </property>
+        <property name="nominaP9" type="java.lang.Boolean">
+            <column name="NOMINA_P9" precision="1" scale="0" />
+        </property>
+        <property name="nominaP10" type="java.lang.Boolean">
+            <column name="NOMINA_P10" precision="1" scale="0" />
+        </property>
+        <property name="nominaP11" type="java.lang.Boolean">
+            <column name="NOMINA_P11" precision="1" scale="0" />
+        </property>
+        <property name="nominaP12" type="java.lang.Boolean">
+            <column name="NOMINA_P12" precision="1" scale="0" />
+        </property>
+        <property name="nominaP13" type="java.lang.Boolean">
+            <column name="NOMINA_P13" precision="1" scale="0" />
+        </property>
+        <property name="nominaP14" type="java.lang.Boolean">
+            <column name="NOMINA_P14" precision="1" scale="0" />
+        </property>
+        <property name="nominaP15" type="java.lang.Boolean">
+            <column name="NOMINA_P15" precision="1" scale="0" />
+        </property>
+        <property name="nominaP16" type="java.lang.Boolean">
+            <column name="NOMINA_P16" precision="1" scale="0" />
+        </property>
+        <property name="nominaP17" type="java.lang.Boolean">
+            <column name="NOMINA_P17" precision="1" scale="0" />
+        </property>
+        <property name="nominaP18" type="java.lang.Boolean">
+            <column name="NOMINA_P18" precision="1" scale="0" />
+        </property>
+        <property name="nominaP19" type="java.lang.Boolean">
+            <column name="NOMINA_P19" precision="1" scale="0" />
+        </property>
+        <property name="nominaP20" type="java.lang.Boolean">
+            <column name="NOMINA_P20" precision="1" scale="0" />
+        </property>
+        <property name="nominaF" type="big_decimal">
+            <column name="NOMINA_F" precision="22" scale="0" />
+        </property>
+        <property name="nominaH1" type="string">
+            <column name="NOMINA_H1" length="850" />
+        </property>
+        <property name="nominaH2" type="string">
+            <column name="NOMINA_H2" length="850" />
+        </property>
+        <property name="nominaDoc" type="blob">
+            <column name="NOMINA_DOC" />
+        </property>
+        <property name="nominaPla" type="blob">
+            <column name="NOMINA_PLA" />
+        </property>
+        <property name="nominaCard" type="string">
+            <column name="NOMINA_CARD" length="50" />
+        </property>
+        <property name="nominaFcard" type="date">
+            <column name="NOMINA_FCARD" length="7" />
+        </property>
+        <property name="nominaObs1" type="string">
+            <column name="NOMINA_OBS1" length="100" />
+        </property>
+        <property name="nominaNow" type="date">
+            <column name="NOMINA_NOW" length="7" />
+        </property>
+        <property name="nominaCafe" type="java.lang.Boolean">
+            <column name="NOMINA_CAFE" precision="1" scale="0" />
+        </property>
+        <property name="nominaAuto" type="string">
+            <column name="NOMINA_AUTO" length="50" />
+        </property>
+        <property name="nominaP21" type="java.lang.Boolean">
+            <column name="NOMINA_P21" precision="1" scale="0" />
+        </property>
+        <property name="nominaP22" type="big_decimal">
+            <column name="NOMINA_P22" precision="22" scale="0" />
+        </property>
+        <property name="nominaP23" type="java.lang.Boolean">
+            <column name="NOMINA_P23" precision="1" scale="0" />
+        </property>
+        <property name="nominaP24" type="java.lang.Boolean">
+            <column name="NOMINA_P24" precision="1" scale="0" />
+        </property>
+        <property name="nominaP25" type="java.lang.Boolean">
+            <column name="NOMINA_P25" precision="1" scale="0" />
+        </property>
+        <property name="nominaControlapb" type="java.lang.Boolean">
+            <column name="NOMINA_CONTROLAPB" precision="1" scale="0" />
+        </property>
+        <property name="nominaStatusapb" type="java.lang.Boolean">
+            <column name="NOMINA_STATUSAPB" precision="1" scale="0" />
+        </property>
+        <property name="nominaLevel" type="java.lang.Long">
+            <column name="NOMINA_LEVEL" precision="10" scale="0" />
+        </property>
+        <property name="nominaTipoid" type="string">
+            <column name="NOMINA_TIPOID" length="5" />
+        </property>
+        <property name="nominaTiponom" type="string">
+            <column name="NOMINA_TIPONOM" length="35" />
+        </property>
+        <property name="nominaCafecontrol" type="java.lang.Boolean">
+            <column name="NOMINA_CAFECONTROL" precision="1" scale="0" />
+        </property>
+        <property name="nominaHwsq1" type="blob">
+            <column name="NOMINA_HWSQ1" />
+        </property>
+        <property name="nominaHwsq2" type="blob">
+            <column name="NOMINA_HWSQ2" />
+        </property>
+    </class>
+</hibernate-mapping>
