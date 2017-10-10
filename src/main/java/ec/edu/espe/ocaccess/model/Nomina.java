@@ -1,5 +1,5 @@
 package ec.edu.espe.ocaccess.model;
-// Generated Oct 10, 2017 11:27:35 AM by Hibernate Tools 4.3.1
+// Generated 10/10/2017 11:30:27 by Hibernate Tools 4.3.1
 
 
 import java.math.BigDecimal;
@@ -722,6 +722,11 @@ public class Nomina  implements java.io.Serializable {
     
     public void setNominaHwsq2(Blob nominaHwsq2) {
         this.nominaHwsq2 = nominaHwsq2;
+    }
+
+    @Override
+    public String toString() {
+        return "Nomina{" + "nominaId=" + nominaId + ", nominaApe=" + nominaApe + ", nominaNom=" + nominaNom + ", nominaClave=" + nominaClave + ", nominaCod=" + nominaCod + ", nominaTipo=" + nominaTipo + ", nominaCal=" + nominaCal + ", nominaArea=" + nominaArea + ", nominaDep=" + nominaDep + ", nominaCal1=" + nominaCal1 + ", nominaArea1=" + nominaArea1 + ", nominaDep1=" + nominaDep1 + ", nominaFing=" + nominaFing + ", nominaFsal=" + nominaFsal + ", nominaSuel=" + nominaSuel + ", nominaCom=" + nominaCom + ", nominaAuti=" + nominaAuti + ", nominaEs=" + nominaEs + ", nominaObs=" + nominaObs + ", nominaEmp=" + nominaEmp + ", nominaFinger=" + nominaFinger + ", nominaF1=" + nominaF1 + ", nominaCed=" + nominaCed + ", nominaFir=" + nominaFir + ", nominaHd1=" + nominaHd1 + ", nominaHf1=" + nominaHf1 + ", nominaHi1=" + nominaHi1 + ", nominaHd2=" + nominaHd2 + ", nominaHf2=" + nominaHf2 + ", nominaHi2=" + nominaHi2 + ", nominaSel=" + nominaSel + ", nominaEmpc=" + nominaEmpc + ", nominaEmpe=" + nominaEmpe + ", nominaP1=" + nominaP1 + ", nominaP2=" + nominaP2 + ", nominaP3=" + nominaP3 + ", nominaP4=" + nominaP4 + ", nominaP5=" + nominaP5 + ", nominaP6=" + nominaP6 + ", nominaP7=" + nominaP7 + ", nominaP8=" + nominaP8 + ", nominaP9=" + nominaP9 + ", nominaP10=" + nominaP10 + ", nominaP11=" + nominaP11 + ", nominaP12=" + nominaP12 + ", nominaP13=" + nominaP13 + ", nominaP14=" + nominaP14 + ", nominaP15=" + nominaP15 + ", nominaP16=" + nominaP16 + ", nominaP17=" + nominaP17 + ", nominaP18=" + nominaP18 + ", nominaP19=" + nominaP19 + ", nominaP20=" + nominaP20 + ", nominaF=" + nominaF + ", nominaH1=" + nominaH1 + ", nominaH2=" + nominaH2 + ", nominaDoc=" + nominaDoc + ", nominaPla=" + nominaPla + ", nominaCard=" + nominaCard + ", nominaFcard=" + nominaFcard + ", nominaObs1=" + nominaObs1 + ", nominaNow=" + nominaNow + ", nominaCafe=" + nominaCafe + ", nominaAuto=" + nominaAuto + ", nominaP21=" + nominaP21 + ", nominaP22=" + nominaP22 + ", nominaP23=" + nominaP23 + ", nominaP24=" + nominaP24 + ", nominaP25=" + nominaP25 + ", nominaControlapb=" + nominaControlapb + ", nominaStatusapb=" + nominaStatusapb + ", nominaLevel=" + nominaLevel + ", nominaTipoid=" + nominaTipoid + ", nominaTiponom=" + nominaTiponom + ", nominaCafecontrol=" + nominaCafecontrol + ", nominaHwsq1=" + nominaHwsq1 + ", nominaHwsq2=" + nominaHwsq2 + '}';
     }
 
 

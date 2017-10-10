@@ -5,6 +5,9 @@
  */
 package ec.edu.espe.ocaccess.test;
 
+import ec.edu.espe.ocaccess.controller.NominaController;
+import ec.edu.espe.ocaccess.model.Nomina;
+
 /**
  *
  * @author luis
@@ -16,6 +19,9 @@ public class test {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Nomina obj = NominaController.FindByCedula("1709203671");
+        System.out.println(">>"+obj.toString());
+                
         
     }
     
