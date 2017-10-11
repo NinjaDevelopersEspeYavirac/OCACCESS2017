@@ -19,7 +19,7 @@ public class test {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Nomina obj = NominaController.FindByCedula("1709203671");
+        Nomina obj = NominaController.FindByCedula("1804110474");
         System.out.println(">>"+obj.toString());
                 
         
